@@ -20,11 +20,11 @@ export default function Home() {
         <TestimonialSection />
         <EducationSection />
         <AssessmentSection />
-        <ConferenceSection />
-        <OrganizationsSection />
+        {/* <ConferenceSection />
+        <OrganizationsSection /> */}
       </div>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

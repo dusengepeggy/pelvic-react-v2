@@ -6,14 +6,12 @@ const container = "w-full max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-10";
 
 export default function ConferenceSection() {
   return (
-    <section className="bg-white py-20">
-      <div className={container}>
-        <div className="relative rounded-3xl overflow-hidden shadow-2xl h-[500px]">
-          {/* Background image */}
+      <section className={`${container} relative rounded-3xl overflow-hidden shadow-2xl h-[500px]`}>
+
           <div 
             className="absolute inset-0 bg-cover bg-center"
             style={{
-              backgroundImage: "url('https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=1600&h=900&fit=crop')",
+              backgroundImage: "url('/conferencebg.jpg')",
             }}
           >
             {/* Overlay gradient */}
@@ -65,9 +63,7 @@ export default function ConferenceSection() {
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
+      </section>
   );
 }
 
